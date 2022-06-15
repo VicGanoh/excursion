@@ -1,3 +1,6 @@
+* {
+    font-family: Verdana, sans-serif;
+}
 
 html {
     font-size: 16px;
@@ -6,16 +9,55 @@ html {
 body {
     background-color: #000000;
 }
+h2 {
+    color: #ffffff; 
+    font-size: 42px; 
+    font-weight: 300;
+}
+
+h3,
+span {
+    color: gray;
+    font-size: 21px;
+}
+
+h5 {
+    font-size: 16px;
+}
 
 /*Header*/
-header {
+header h2{
     font-size: 50px;
-    font-family: Verdana;
     color: white;
     text-align: center;
 }
 
 /* Content */
+
+.download-excursion {
+    text-align: center;
+}
+
 .download-excursion a{
     color: aquamarine;
+}
+
+.video-container {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.travel-excursion {
+    text-align: center;
+}
+
+.img-container {
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer p {
+    text-align: right;
 }
