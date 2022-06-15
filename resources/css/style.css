@@ -1,3 +1,4 @@
+
 html {
     font-size: 16px;
 }
@@ -12,4 +13,9 @@ header {
     font-family: Verdana;
     color: white;
     text-align: center;
+}
+
+/* Content */
+.download-excursion a{
+    color: aquamarine;
 }
