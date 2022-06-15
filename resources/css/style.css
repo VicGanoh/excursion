@@ -1,0 +1,15 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #000000;
+}
+
+/*Header*/
+header {
+    font-size: 50px;
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+}
