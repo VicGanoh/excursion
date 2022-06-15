@@ -2,15 +2,17 @@
     font-family: Verdana, sans-serif;
 }
 
-html {
-    font-size: 16px;
-}
-
 body {
     background-color: #000000;
+    color: #ffffff;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;*/
+    text-align: center;
+    margin: auto;
 }
-h2 {
-    color: #ffffff; 
+h2 { 
     font-size: 42px; 
     font-weight: 300;
 }
@@ -28,8 +30,8 @@ h5 {
 /*Header*/
 header h2{
     font-size: 50px;
-    color: white;
     text-align: center;
+    font-weight: normal;
 }
 
 /* Content */
@@ -42,13 +44,13 @@ header h2{
     color: aquamarine;
 }
 
-.video-container {
+/*.video-container {
     background-color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+*/
 .travel-excursion {
     text-align: center;
 }
@@ -60,4 +62,36 @@ header h2{
 
 footer p {
     text-align: right;
+}
+
+@media only screen and (max-width: 800px) {
+
+
+    body {
+        text-align: center;
+        font-size: 10px;
+        margin: auto;
+    }
+
+    h2 { 
+        font-size: 30px; 
+    }
+
+    h3,
+    span {
+        font-size: 15px;
+    }
+
+    /*Header*/
+    header h2{
+        font-size: 40px;
+    }
+
+    .travel-excursion img {
+        max-width: 100%;
+    }
+
+    .excursion-video video {
+        max-width: 100%;
+    }
 }
